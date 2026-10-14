@@ -1,0 +1,59 @@
+# Fechas editables cada año. lead_days = días antes en los que sube la prioridad.
+# country en settings.py elige el bloque (MX).
+
+MX:
+  - name: Reyes
+    start: 2027-01-06
+    end: 2027-01-06
+    lead_days: 10
+    categories: [juguete, consola]
+    note: "La demanda de juguetes suele subir antes de Reyes."
+
+  - name: Día del Niño
+    start: 2027-04-30
+    end: 2027-04-30
+    lead_days: 14
+    categories: [juguete, consola]
+    note: "Vigilar precio; la demanda de juguetes suele subir."
+
+  - name: Día de las Madres
+    start: 2027-05-10
+    end: 2027-05-10
+    lead_days: 14
+    categories: [celular, audifonos, perfume]
+    note: "Vigilar precio los días previos al Día de las Madres."
+
+  - name: Hot Sale
+    start: 2027-05-25
+    end: 2027-06-02
+    lead_days: 3
+    categories: [laptop, pc, celular, tablet, consola, audifonos]
+    note: "Ventana de ofertas. Confirmar que el descuento sea real."
+
+  - name: Buen Fin
+    start: 2026-11-13
+    end: 2026-11-16
+    lead_days: 5
+    categories: [laptop, pc, celular, tablet, consola, audifonos]
+    note: "Vigilar precio; electrónica suele moverse estos días."
+
+  - name: Black Friday
+    start: 2026-11-27
+    end: 2026-11-27
+    lead_days: 3
+    categories: [laptop, pc, celular, tablet, consola]
+    note: "Ventana de ofertas de electrónica."
+
+  - name: Cyber Monday
+    start: 2026-11-30
+    end: 2026-11-30
+    lead_days: 1
+    categories: [laptop, pc, celular, tablet]
+    note: "Ventana corta de ofertas en línea."
+
+  - name: Navidad
+    start: 2026-12-24
+    end: 2026-12-25
+    lead_days: 15
+    categories: [juguete, consola, celular, audifonos]
+    note: "La demanda sube las dos semanas previas."

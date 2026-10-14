@@ -1,0 +1,32 @@
+# Reemplaza los placeholders. La contraseña NO va aquí: va en .env
+# como FB_01_PASSWORD, usando el id en mayúsculas.
+
+facebook:
+  - id: fb_01
+    email: TU_CORREO_FB_01@example.com
+    session_path: sessions/facebook/fb_01
+    max_uses_per_day: 8
+    cooldown_minutes: 45
+    proxy: null
+
+  - id: fb_02
+    email: TU_CORREO_FB_02@example.com
+    session_path: sessions/facebook/fb_02
+    max_uses_per_day: 8
+    cooldown_minutes: 60
+    proxy: null
+
+whatsapp:
+  - id: wa_01
+    phone: "+52TU_NUMERO_WA_01"
+    session_path: sessions/whatsapp/wa_01
+    max_uses_per_day: 6
+    cooldown_minutes: 90
+    proxy: null
+
+  - id: wa_02
+    phone: "+52TU_NUMERO_WA_02"
+    session_path: sessions/whatsapp/wa_02
+    max_uses_per_day: 6
+    cooldown_minutes: 120
+    proxy: null
